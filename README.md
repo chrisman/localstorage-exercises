@@ -7,5 +7,5 @@ These exercises will get you familiar with the basic usage of `localStorage`.
 
 ## Begin
 
-Start in [01-get-set](./01-get-set) for the first exercise.
+Start in `01-get-set` for the first exercise.
 Open each `index.html` file for directions to complete the exercises.
