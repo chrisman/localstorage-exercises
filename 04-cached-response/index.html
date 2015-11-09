@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>04-cached-response</title>
+    <link rel="stylesheet" href="../styles.css">
     <script src="jquery.min.js"></script>
     <script src="script.js"></script>
   </head>
@@ -9,17 +10,17 @@
     <h1>04-cached-response</h1>
     <h2>Step 1: Store JSON from XHR</h2>
     <ol>
-      <li>Open the "script.js" file for editing.</li>
-      <li>Do an XHR for "http://www.reddit.com/r/aww.json"</li>
+      <li>Open the <code>script.js</code> file for editing.</li>
+      <li>Do an XHR for <code>"http://www.reddit.com/r/aww.json"</code></li>
       <li>
-        Save the result of the XHR into a key named "redditData".
+        Save the result of the XHR into a key named <code>"redditData"</code>.
         Make sure the object you are storing is the JSON string.
         Not the JS Object.
       </li>
     </ol>
     <h2>Step 2: retrieve response</h2>
     <ol>
-      <li>Do a "localStorage.getItem('redditData')" and parse it into a JS Object.</li>
+      <li>Do a <code>localStorage.getItem('redditData')</code> and parse it into a JS Object.</li>
     </ol>
     <h2>Step 3: pull from cache</h2>
     <p>The idea is that now if you are offline you can still access the last set of data retrieved</p>
